@@ -12,12 +12,12 @@ Which communities in the Vancouver Coastal Health region are most socially vulne
 - [Interactive map](https://emmabranch.github.io/vch-climate-equity-profile/) | [Briefing note](https://emmabranch.github.io/vch-climate-equity-profile/briefing.html) | [Code](https://github.com/emmabranch/vch-climate-equity-profile)
 
 ### 🐟 BC Salmon Explorer
-An interactive R Shiny app for exploring salmon data in British Columbia. [EDIT: add one sentence on what the app shows or lets users do.]
+An interactive R Shiny app for exploring salmon data in British Columbia. How are BC’s wild salmon doing? This interactive Shiny app maps nearly 7,000 spawning streams from the Fraser to the Yukon. You can filter by species, region, and Conservation Unit, then see which populations are declining, holding steady, or recovering, based on mixed-effects models of 30 years of spawner counts.
 - **Tools:** R, Shiny
 - [Live app](https://emmabranch.shinyapps.io/bc-salmon-explorer) | [Code](https://github.com/emmabranch/REPO-NAME)
 
 ### 🦌 Mining claims and caribou ranges in Ontario
-A spatial analysis of mining claims across Ontario's caribou ranges. [EDIT: add one sentence on the main question or finding.]
+A spatial analysis of mining claims across Ontario's caribou ranges. How much of Ontario’s woodland caribou habitat is staked for mineral exploration? Active mining claims now cover over 50,000 km² of caribou range, nearly the size of Nova Scotia, including almost a third of the Sydney range in the northwest. This project pulls the province’s claims data automatically with Python and R, measures the overlap with each range, and maps how staking has shifted since 2018, including a 2025 jump when 60% of newly staked land fell inside caribou range.
 - **Tools:** Python, R, QGIS
 - [Code](https://github.com/emmabranch/ontario-claims-caribou)
 
