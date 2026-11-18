@@ -1,10 +1,15 @@
 # Hi, I'm Emma Branch 👋
 
-I'm an epidemiologist and population health researcher, and a PhD candidate in epidemiology at the University of British Columbia. My research looks at wildfire smoke exposure and perinatal and infant health. I like turning complex data into clear evidence that public health teams, planners, and communities can act on.
+I'm an epidemiologist and population health researcher, and a PhD candidate in epidemiology at the University of British Columbia. My research looks at wildfire smoke exposure and perinatal and infant health. I like turning complex data into clear evidence that public health teams, planners, and communities can act on. Lately I've been applying the same skills to ocean and fisheries data, with a focus on documented, reproducible workflows.
 
-**Interests:** environmental and climate health, health equity, spatial epidemiology, and knowledge translation.
+**Interests:** environmental and climate health, ocean and fisheries data, health equity, spatial epidemiology, and knowledge translation.
 
 ## Portfolio projects
+
+### 🎣 BC fish stock status: an exploratory rapid assessment toolkit
+What do public data actually tell us about the status of BC's fish and shellfish stocks, and where do they run out? I combined DFO's 2024 Sustainability Survey for Fisheries with the RAM Legacy Stock Assessment Database to build a documented database for ten stocks across six species, including five Pacific herring areas. Each stock gets a data tier, a biomass-to-limit-reference-point indicator, and rule-based data gap flags, and a parameterised Quarto template renders a two-page summary for any stock. The latest estimates were consistent with all seven DFO 2024 status zones that could be compared. Only two of the ten stocks had both biomass and fishing-pressure ratios relative to MSY, and two relied on DFO's survey response alone. This is a learning project, not an official assessment.
+- **Tools:** R (tidyverse, leaflet, plotly, patchwork), Quarto (Typst PDF reports, closeread scrollytelling), GitHub Pages
+- [Project site and interactive map](https://emmabranch.github.io/bc-fish-stock-status/) | [Stock cards](https://emmabranch.github.io/bc-fish-stock-status/cards.html) | [Code](https://github.com/emmabranch/bc-fish-stock-status)
 
 ### 🌊 BC lightstation sea temperatures: quality control and the 2014 to 2016 marine heatwave
 How do you turn decades of hand-collected ocean temperatures into data others can trust and reuse? I took daily sea surface temperatures from 12 BC lightstations (about 140,000 observations since 1991) from CIOOS Pacific's ERDDAP server and applied automated quality control based on the IOOS QARTOD manuals, tuning each test to the data and documenting every decision. About 1% of values were flagged, and the checks turned up periods of whole-degree recording at several stations. The cleaned data are published as a CF and ACDD compliant NetCDF file with a data dictionary and archived with a DOI. Maps and a heatmap show the 2014 to 2016 marine heatwave reaching the BC coast.
