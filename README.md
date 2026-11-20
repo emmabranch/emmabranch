@@ -6,8 +6,15 @@ I'm an epidemiologist and population health researcher, and a PhD candidate in e
 
 ## Portfolio projects
 
+### 📋 REDCap starter kit: from REDCap project to quality-checked report
+
+How do you get from a REDCap project to clean, documented analysis data without hand-editing spreadsheets? This kit pulls records from REDCap with REDCapR, uses the project's own data dictionary to drive cleaning and labelling, runs six data quality checks, and renders a Quarto status report. It is demonstrated on a fictional pregnancy cohort with synthetic data, and the checks catch all 18 data problems planted in it.
+
+- **Tools:** R (REDCapR, tidyverse, gt), Quarto, GitHub Pages
+- [Project site](https://emmabranch.github.io/redcap-starter-kit/) | [Code](https://github.com/emmabranch/redcap-starter-kit)
+
 ### 🏘️ BC municipal housing indicators: a documented performance scorecard
-How are the 40 BC municipalities with provincial housing targets doing on supply, need, affordability, and rental vacancy? I built a reproducible R pipeline that combines Statistics Canada Census data, CMHC rental and construction data, and *Housing Supply Act* target results into a tidy indicator database, with an indicator framework that sets out the definition, source, comparator, status rule, and limitations for each of nine indicators. A Quarto dashboard shows red, amber, and green status against targets and BC benchmarks, with an interactive map, and a parameterised template renders a two-page report card for every municipality. Data quality checks caught 6 of 40 incorrect geography codes, the pipeline reproduces Statistics Canada's published BC core housing need rates exactly, and each hand-compiled target value records its source and whether it was verified. 18 of the 30 municipalities assessed so far met their Year 1 housing target. This is a learning project using public data, not affiliated with BC Housing or the Government of BC.
+How are the 40 BC municipalities with provincial housing targets doing on supply, need, affordability, and rental vacancy? I built a reproducible R pipeline that combines Statistics Canada Census data, CMHC rental and construction data, and *Housing Supply Act* target results into a tidy indicator database, with an indicator framework that sets out the definition, source, comparator, status rule, and limitations for each of nine indicators. A Quarto dashboard shows red, amber, and green status against targets and BC benchmarks, with an interactive map, and a parameterised template renders a two-page report card for every municipality. Data quality checks caught 6 of 40 incorrect geography codes, the pipeline reproduces Statistics Canada's published BC core housing need rates exactly, and each hand-compiled target value records its source and whether it was verified. Year 1 housing target results are available for 30 of the 40 municipalities so far, and 18 of those 30 met their target. This is a learning project using public data, not affiliated with BC Housing or the Government of BC.
 - **Tools:** R (tidyverse, cansim, cmhc, sf, leaflet, reactable), Quarto dashboards and parameterised reports, GitHub Pages
 - [Dashboard](https://emmabranch.github.io/bc-housing-indicators/) | [Example report card](https://emmabranch.github.io/bc-housing-indicators/reports/vancouver.html) | [Code](https://github.com/emmabranch/bc-housing-indicators)
 
@@ -22,7 +29,7 @@ How do you turn decades of hand-collected ocean temperatures into data others ca
 - [Project site and interactive map](https://emmabranch.github.io/bc-lightstation-qc/) | [Code](https://github.com/emmabranch/bc-lightstation-qc) | [DOI: 10.5281/zenodo.24326157](https://doi.org/10.5281/zenodo.24326157)
 
 ### 🔥 BC wildfire history in BigQuery
-Is British Columbia seeing more wildfires, or just bigger ones? I loaded 75 years of BC Wildfire Service records (about 225,000 fire points and perimeters, 1950 to 2025) into Google BigQuery and analysed them with SQL and BigQuery GIS. The number of fires each year hasn't increased, but area burned has soared: from 2020 to 2025, an average of 1.1 million hectares burned each year, around ten times the average in earlier decades. A spatial query shows how much land has burned within 50 km of five BC communities, decade by decade.
+Is British Columbia seeing more wildfires, or just bigger ones? I loaded 76 fire seasons of BC Wildfire Service records (about 225,000 fire points and perimeters, 1950 to 2025) into Google BigQuery and analysed them with SQL and BigQuery GIS. The number of fires each year hasn't increased, but area burned has soared: from 2020 to 2025, an average of 1.1 million hectares burned each year, around ten times the average in earlier decades. A spatial query shows how much land has burned within 50 km of five BC communities, decade by decade.
 - **Tools:** Google BigQuery, BigQuery GIS, SQL, R (bcdata, sf, bigrquery, ggplot2)
 - [Live site](https://emmabranch.github.io/bc-wildfire-bigquery/) | [Code](https://github.com/emmabranch/bc-wildfire-bigquery)
 
@@ -40,11 +47,11 @@ How are BC’s wild salmon doing? This interactive Shiny app maps nearly 7,000 s
 ### 🦌 Mining claims and caribou ranges in Ontario
 How much of Ontario's woodland caribou habitat is staked for mineral exploration? Active mining claims now cover over 50,000 km² of caribou range, nearly the size of Nova Scotia, including almost a third of the Sydney range in the northwest. This project pulls the province's claims data automatically with Python and R, measures the overlap with each range, and maps how staking has shifted since 2018, including a 2025 jump when 60% of newly staked land fell inside caribou range.
 - **Tools:** Python, R, QGIS
-- [Website](https://emmabranch.github.io/ontario-claims-caribou/) · [Code](https://github.com/emmabranch/ontario-claims-caribou)
+- [Website](https://emmabranch.github.io/ontario-claims-caribou/) | [Code](https://github.com/emmabranch/ontario-claims-caribou)
 
 ## Skills
 
-- **Analysis and programming:** R (tidyverse, sf, Shiny, Quarto, RMarkdown), SAS, SQL, Python, Stata, SPSS
+- **Analysis and programming:** R (tidyverse, sf, Shiny, Quarto, RMarkdown), SAS, SQL, Python (basic), Stata, SPSS
 - **Cloud and databases:** Google BigQuery (including BigQuery GIS), bigrquery, REDCap (database design and build)
 - **Spatial:** QGIS, ArcGIS, sf, leaflet, BigQuery GIS
 - **Performance measurement and reporting:** indicator frameworks, KPI definitions and status rules, scorecards and dashboards (Quarto, Power BI), parameterised reporting, data dictionaries
