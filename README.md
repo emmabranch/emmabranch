@@ -27,9 +27,9 @@ Is British Columbia seeing more wildfires, or just bigger ones? I loaded 75 year
 - [Live site](https://emmabranch.github.io/bc-wildfire-bigquery/) | [Code](https://github.com/emmabranch/bc-wildfire-bigquery)
 
 ### 🌡️ Climate resilience and equity profile of VCH communities
-Which communities in the Vancouver Coastal Health region are most socially vulnerable to extreme heat and wildfire smoke, and do they also have less green cover? I built a transparent social vulnerability index from 2021 Census data, validated it against Statistics Canada's Canadian Index of Social Vulnerability, mapped it alongside vegetation cover, and wrote a two-page briefing for Medical Health Officers and planners.
+Which communities in the Vancouver Coastal Health region are most socially vulnerable to extreme heat and wildfire smoke, and do they also have less green cover? I built a transparent social vulnerability index for 1,773 neighbourhoods from 2021 Census data, validated it against Statistics Canada's Canadian Index of Social Vulnerability (rho = 0.74), and mapped it alongside vegetation cover: the most vulnerable fifth of urban neighbourhoods has about 25% green cover, compared with 35% in the least vulnerable. A two-page briefing for Medical Health Officers and planners draws on VCH's own lived-experience research.
 - **Tools:** R, sf, leaflet, Quarto, GitHub Pages
-- [Interactive map](https://emmabranch.github.io/vch-climate-equity-profile/) | [Briefing note](https://emmabranch.github.io/vch-climate-equity-profile/briefing.html) | [Code](https://github.com/emmabranch/vch-climate-equity-profile)
+- [Project site](https://emmabranch.github.io/vch-climate-equity-profile/) | [Briefing note](https://emmabranch.github.io/vch-climate-equity-profile/briefing.html) | [Code](https://github.com/emmabranch/vch-climate-equity-profile)
 
 ### 🐟 BC Salmon Explorer
 How are BC's wild salmon doing? This interactive R Shiny app maps nearly 7,000 spawning streams from the Fraser to the Yukon. You can filter by species, region, and Conservation Unit, then see which populations are declining, holding steady, or recovering, based on mixed-effects models of 30 years of spawner counts.
