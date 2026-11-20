@@ -24,7 +24,7 @@ How do you turn decades of hand-collected ocean temperatures into data others ca
 ### 🔥 BC wildfire history in BigQuery
 Is British Columbia seeing more wildfires, or just bigger ones? I loaded 75 years of BC Wildfire Service records (about 225,000 fire points and perimeters, 1950 to 2025) into Google BigQuery and analysed them with SQL and BigQuery GIS. The number of fires each year hasn't increased, but area burned has soared: from 2020 to 2025, an average of 1.1 million hectares burned each year, around ten times the average in earlier decades. A spatial query shows how much land has burned within 50 km of five BC communities, decade by decade.
 - **Tools:** Google BigQuery, BigQuery GIS, SQL, R (bcdata, sf, bigrquery, ggplot2)
-- [Code and findings](https://github.com/emmabranch/bc-wildfire-bigquery)
+- [Live site](https://emmabranch.github.io/bc-wildfire-bigquery/) | [Code](https://github.com/emmabranch/bc-wildfire-bigquery)
 
 ### 🌡️ Climate resilience and equity profile of VCH communities
 Which communities in the Vancouver Coastal Health region are most socially vulnerable to extreme heat and wildfire smoke, and do they also have less green cover? I built a transparent social vulnerability index from 2021 Census data, validated it against Statistics Canada's Canadian Index of Social Vulnerability, mapped it alongside vegetation cover, and wrote a two-page briefing for Medical Health Officers and planners.
