@@ -32,7 +32,7 @@ Which communities in the Vancouver Coastal Health region are most socially vulne
 - [Project site](https://emmabranch.github.io/vch-climate-equity-profile/) | [Briefing note](https://emmabranch.github.io/vch-climate-equity-profile/briefing.html) | [Code](https://github.com/emmabranch/vch-climate-equity-profile)
 
 ### 🐟 BC Salmon Explorer
-How are BC's wild salmon doing? This interactive R Shiny app maps nearly 7,000 spawning streams from the Fraser to the Yukon. You can filter by species, region, and Conservation Unit, then see which populations are declining, holding steady, or recovering, based on mixed-effects models of 30 years of spawner counts.
+How are BC’s wild salmon doing? This interactive Shiny app maps nearly 7,000 spawning streams from the Fraser to the Yukon. You can filter by species, region, and Conservation Unit, then see which populations are declining, holding steady, or recovering, based on mixed-effects models of 30 years of spawner counts, with unit tests and an autocorrelation sensitivity check.
 - **Tools:** R, Shiny
 - [Live app](https://emmabranch.shinyapps.io/bc-salmon-explorer) | [Code](https://github.com/emmabranch/bc-salmon-explorer)
 - For ocean conditions on the same coast, see [BC lightstation sea temperatures](https://emmabranch.github.io/bc-lightstation-qc/).
