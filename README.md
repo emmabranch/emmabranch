@@ -1,71 +1,80 @@
 # Hi, I'm Emma Branch 👋
 
-I'm an epidemiologist and data analyst in British Columbia, and a PhD candidate in Population and Public Health at the University of British Columbia. My research looks at wildfire smoke exposure and perinatal and infant health. I've spent about 10 years working with health research data, including registry analytics, REDCap database design, data governance, and performance measurement. I like turning complex data into clear evidence that public health teams, planners, and communities can act on. Lately I've been applying the same skills to ocean and fisheries data and to housing indicators, with a focus on documented, reproducible workflows and clear performance reporting.
+I'm an epidemiologist and data analyst in British Columbia, and a PhD candidate in Population and Public Health at the University of British Columbia. My research looks at wildfire smoke exposure and perinatal and infant health. I've spent about 10 years working with health research data, including registry analytics, REDCap database design, data governance, and performance measurement. I like turning complex data into clear evidence that public health teams, planners, and communities can act on. Lately I've been applying the same skills to ocean, wildlife, and fisheries data and to housing indicators, with a focus on documented, reproducible workflows, clear performance reporting, and interactive data stories.
 
-**Interests:** environmental and climate health, ocean and fisheries data, housing and health equity, performance measurement, spatial epidemiology, and knowledge translation.
+**Interests:** environmental and climate health, ocean and fisheries data, housing and health equity, performance measurement, spatial epidemiology, data storytelling, and knowledge translation.
 
 ## Portfolio projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://emmabranch.github.io/salish-sea-whales/"><img src="images/salish-sea-whales.png" alt="Whales of the Salish Sea"></a>
+<p><b><a href="https://emmabranch.github.io/salish-sea-whales/">Whales of the Salish Sea</a></b><br>More whales, or more watchers? An interactive story about 13,000 whale sightings.</p>
+<p><i>R · D3 · Quarto closeread</i><br><a href="https://emmabranch.github.io/salish-sea-whales/">Live site</a> · <a href="https://github.com/emmabranch/salish-sea-whales">Code</a></p>
+</td>
+<td width="50%" valign="top">
 <a href="https://emmabranch.github.io/redcap-starter-kit/"><img src="images/redcap-starter-kit.png" alt="REDCap starter kit"></a>
 <p><b><a href="https://emmabranch.github.io/redcap-starter-kit/">REDCap starter kit</a></b><br>From REDCap project to quality-checked report, with dictionary-driven cleaning and six data quality checks.</p>
 <p><i>R · REDCap · Quarto</i><br><a href="https://emmabranch.github.io/redcap-starter-kit/">Live site</a> · <a href="https://github.com/emmabranch/redcap-starter-kit">Code</a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://emmabranch.github.io/bc-housing-indicators/"><img src="images/bc-housing-indicators.png" alt="BC municipal housing indicators"></a>
 <p><b><a href="https://emmabranch.github.io/bc-housing-indicators/">BC municipal housing indicators</a></b><br>A documented red, amber, and green scorecard for the 40 municipalities with housing targets.</p>
 <p><i>R · Quarto dashboard</i><br><a href="https://emmabranch.github.io/bc-housing-indicators/">Live site</a> · <a href="https://github.com/emmabranch/bc-housing-indicators">Code</a></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://emmabranch.github.io/bc-fish-stock-status/"><img src="images/bc-fish-stock-status.png" alt="BC fish stock status"></a>
 <p><b><a href="https://emmabranch.github.io/bc-fish-stock-status/">BC fish stock status</a></b><br>An exploratory rapid assessment toolkit for ten BC fish and shellfish stocks.</p>
 <p><i>R · Quarto · closeread</i><br><a href="https://emmabranch.github.io/bc-fish-stock-status/">Live site</a> · <a href="https://github.com/emmabranch/bc-fish-stock-status">Code</a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://emmabranch.github.io/bc-lightstation-qc/"><img src="images/bc-lightstation-qc.png" alt="BC lightstation sea temperatures"></a>
 <p><b><a href="https://emmabranch.github.io/bc-lightstation-qc/">BC lightstation sea temperatures</a></b><br>QARTOD quality control for about 140,000 daily ocean temperatures, published with a DOI.</p>
 <p><i>R · ERDDAP · NetCDF</i><br><a href="https://emmabranch.github.io/bc-lightstation-qc/">Live site</a> · <a href="https://github.com/emmabranch/bc-lightstation-qc">Code</a></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://emmabranch.github.io/bc-wildfire-bigquery/"><img src="images/bc-wildfire-bigquery.png" alt="BC wildfire history in BigQuery"></a>
 <p><b><a href="https://emmabranch.github.io/bc-wildfire-bigquery/">BC wildfire history in BigQuery</a></b><br>76 fire seasons analysed with SQL and BigQuery GIS: not more fires, but far more area burned.</p>
 <p><i>SQL · BigQuery GIS · R</i><br><a href="https://emmabranch.github.io/bc-wildfire-bigquery/">Live site</a> · <a href="https://github.com/emmabranch/bc-wildfire-bigquery">Code</a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://emmabranch.github.io/vch-climate-equity-profile/"><img src="images/vch-climate-equity-profile.png" alt="Climate resilience and equity profile of VCH communities"></a>
 <p><b><a href="https://emmabranch.github.io/vch-climate-equity-profile/">Climate resilience and equity profile of VCH communities</a></b><br>Social vulnerability to heat and smoke, alongside green cover, with a briefing note.</p>
 <p><i>R · leaflet · Quarto</i><br><a href="https://emmabranch.github.io/vch-climate-equity-profile/">Live site</a> · <a href="https://github.com/emmabranch/vch-climate-equity-profile">Code</a></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://emmabranch.shinyapps.io/bc-salmon-explorer/"><img src="images/bc-salmon-explorer.png" alt="BC Salmon Explorer"></a>
 <p><b><a href="https://emmabranch.shinyapps.io/bc-salmon-explorer/">BC Salmon Explorer</a></b><br>A Shiny app mapping 6,988 spawning streams, with Conservation Unit trends from mixed models.</p>
 <p><i>R · Shiny · leaflet</i><br><a href="https://emmabranch.shinyapps.io/bc-salmon-explorer/">Live app</a> · <a href="https://github.com/emmabranch/bc-salmon-explorer">Code</a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://emmabranch.github.io/ontario-claims-caribou/"><img src="images/ontario-claims-caribou.png" alt="Mining claims and caribou"></a>
 <p><b><a href="https://emmabranch.github.io/ontario-claims-caribou/">Mining claims and caribou</a></b><br>Active mining claims cover about 50,900 km², or 10.6%, of Ontario's woodland caribou ranges.</p>
 <p><i>Python · R · QGIS</i><br><a href="https://emmabranch.github.io/ontario-claims-caribou/">Live site</a> · <a href="https://github.com/emmabranch/ontario-claims-caribou">Code</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://emmabranch.github.io/salish-sea-whales/"><img src="images/salish-sea-whales.png" alt="Whales of the Salish Sea"></a>
-<p><b><a href="https://emmabranch.github.io/salish-sea-whales/">Whales of the Salish Sea</a></b><br>More whales, or more watchers? An interactive story about 13,000 whale sightings.</p>
-<p><i>R · D3 · Quarto closeread</i><br><a href="https://emmabranch.github.io/salish-sea-whales/">Live site</a> · <a href="https://github.com/emmabranch/salish-sea-whales">Code</a></p>
 </td>
 <td width="50%" valign="top"></td>
 </tr>
 </table>
 
 ### More about each project
+
+<details>
+<summary><b>🐋 Whales of the Salish Sea: more whales, or more watchers?</b></summary>
+
+Whale sightings in the Salish Sea have soared, but so has the number of people watching. This interactive story uses about 13,400 open OBIS records of humpback whales, orcas, and grey whales to separate the two, comparing whale sightings with iNaturalist marine observations and humpbacks with orcas seen by the same observers. Humpbacks still rose once watchers were allowed for. The site also has a D3 map of a year of sightings with ferry routes and shipping lanes, and a page of whale sounds drawn as live spectrograms.
+- **Tools:** R (tidyverse, sf, robis), D3, Web Audio API, Quarto (closeread)
+- [Live site](https://emmabranch.github.io/salish-sea-whales/) | [Code](https://github.com/emmabranch/salish-sea-whales)
+
+</details>
 
 <details>
 <summary><b>📋 REDCap starter kit: from REDCap project to quality-checked report</b></summary>
@@ -141,15 +150,6 @@ How much of Ontario's woodland caribou habitat is staked for mineral exploration
 
 </details>
 
-<details>
-<summary><b>🐋 Whales of the Salish Sea: more whales, or more watchers?</b></summary>
-
-Whale sightings in the Salish Sea have soared, but so has the number of people watching. This interactive story uses about 13,400 open OBIS records of humpback whales, orcas, and grey whales to separate the two, comparing whale sightings with iNaturalist marine observations and humpbacks with orcas seen by the same observers. Humpbacks still rose once watchers were allowed for. The site also has a D3 map of a year of sightings with ferry routes and shipping lanes, and a page of whale sounds drawn as live spectrograms.
-- **Tools:** R (tidyverse, sf, robis), D3, Web Audio API, Quarto (closeread)
-- [Live site](https://emmabranch.github.io/salish-sea-whales/) | [Code](https://github.com/emmabranch/salish-sea-whales)
-
-</details>
-
 ## Skills
 
 - **Analysis and programming:** R (tidyverse, sf, Shiny, Quarto, RMarkdown), SAS, SQL, Python (basic), Stata, SPSS
@@ -157,6 +157,7 @@ Whale sightings in the Salish Sea have soared, but so has the number of people w
 - **Spatial:** QGIS, ArcGIS, sf, leaflet, BigQuery GIS
 - **Performance measurement and reporting:** indicator frameworks, KPI definitions and status rules, scorecards and dashboards (Quarto, Power BI), parameterised reporting, data dictionaries
 - **Data management and quality:** data management plans, OCAP principles, quality control (IOOS QARTOD), validation against published figures, metadata standards (CF, ACDD), NetCDF, ERDDAP, data archiving with DOIs (Zenodo), Git and GitHub
+- **Web and data storytelling:** Quarto websites and scrollytelling (closeread), interactive maps with D3 and leaflet, Shiny apps
 - **Methods:** epidemiological study design, environmental exposure assessment, area-level indices, data linkage
 
 ## Get in touch
