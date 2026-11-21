@@ -55,6 +55,14 @@ I'm an epidemiologist and data analyst in British Columbia, and a PhD candidate 
 <p><i>Python · R · QGIS</i><br><a href="https://emmabranch.github.io/ontario-claims-caribou/">Live site</a> · <a href="https://github.com/emmabranch/ontario-claims-caribou">Code</a></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://emmabranch.github.io/salish-sea-whales/"><img src="images/salish-sea-whales.png" alt="Whales of the Salish Sea"></a>
+<p><b><a href="https://emmabranch.github.io/salish-sea-whales/">Whales of the Salish Sea</a></b><br>More whales, or more watchers? An interactive story about 13,000 whale sightings.</p>
+<p><i>R · D3 · Quarto closeread</i><br><a href="https://emmabranch.github.io/salish-sea-whales/">Live site</a> · <a href="https://github.com/emmabranch/salish-sea-whales">Code</a></p>
+</td>
+<td width="50%" valign="top"></td>
+</tr>
 </table>
 
 ### More about each project
@@ -130,6 +138,15 @@ How are BC’s wild salmon doing? This interactive Shiny app maps nearly 7,000 s
 How much of Ontario's woodland caribou habitat is staked for mineral exploration? Active mining claims now cover about 50,900 km², or 10.6%, of Ontario's woodland caribou ranges (nearly the size of Nova Scotia), including almost a third of the Sydney range in the northwest. This project pulls the province's claims data automatically with Python and R, measures the overlap with each range, and maps how staking has shifted since 2018, including a 2025 jump when 60% of newly staked land fell inside caribou range.
 - **Tools:** Python, R, QGIS
 - [Live site](https://emmabranch.github.io/ontario-claims-caribou/) | [Code](https://github.com/emmabranch/ontario-claims-caribou)
+
+</details>
+
+<details>
+<summary><b>🐋 Whales of the Salish Sea: more whales, or more watchers?</b></summary>
+
+Whale sightings in the Salish Sea have soared, but so has the number of people watching. This interactive story uses about 13,400 open OBIS records of humpback whales, orcas, and grey whales to separate the two, comparing whale sightings with iNaturalist marine observations and humpbacks with orcas seen by the same observers. Humpbacks still rose once watchers were allowed for. The site also has a D3 map of a year of sightings with ferry routes and shipping lanes, and a page of whale sounds drawn as live spectrograms.
+- **Tools:** R (tidyverse, sf, robis), D3, Web Audio API, Quarto (closeread)
+- [Live site](https://emmabranch.github.io/salish-sea-whales/) | [Code](https://github.com/emmabranch/salish-sea-whales)
 
 </details>
 
