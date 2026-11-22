@@ -61,7 +61,11 @@ I'm an epidemiologist and data analyst in British Columbia, and a PhD candidate 
 <p><b><a href="https://emmabranch.github.io/ontario-claims-caribou/">Mining claims and caribou</a></b><br>Active mining claims cover about 50,900 km², or 10.6%, of Ontario's woodland caribou ranges.</p>
 <p><i>Python · R · QGIS</i><br><a href="https://emmabranch.github.io/ontario-claims-caribou/">Live site</a> · <a href="https://github.com/emmabranch/ontario-claims-caribou">Code</a></p>
 </td>
-<td width="50%" valign="top"></td>
+<td width="50%" valign="top">
+<a href="https://emmabranch.github.io/bike-recall-surveillance/"><img src="images/bike-recall-surveillance.png" alt="Bike recall surveillance"></a>
+<p><b><a href="https://emmabranch.github.io/bike-recall-surveillance/">Bike recall surveillance</a></b><br>508 bicycle, e-bike, and component recalls in the US and Canada, read like surveillance data.</p>
+<p><i>R · Quarto · Observable JS</i><br><a href="https://emmabranch.github.io/bike-recall-surveillance/">Live site</a> · <a href="https://github.com/emmabranch/bike-recall-surveillance">Code</a></p>
+</td>
 </tr>
 </table>
 
@@ -150,6 +154,15 @@ How much of Ontario's woodland caribou habitat is staked for mineral exploration
 
 </details>
 
+<details>
+<summary><b>🚲 Bike recall surveillance: which parts fail, and what is changing</b></summary>
+
+What do 25 years of bicycle recalls say about which parts fail? I treated recall notices from the US Consumer Product Safety Commission and Health Canada as passive surveillance data: a written case definition decides what counts, record linkage joins recalls published in both countries into 508 events, and transparent rules classify each one by product, failed part, and hazard. The rules were checked against a hand-labelled holdout sample (product form 97% agreement, kappa 0.96). Most recalls (91%) involve a fall or crash hazard, forks are the most common failed part, and e-bike recalls rose from 7 in 2020 to 2022 to 17 in 2023 to 2025. The site has an interactive dashboard, a historical limits signal detection page, and a section on what passive recall data can and can't show. It is an independent project using public data.
+- **Tools:** R (tidyverse, httr2, rvest), Quarto, Observable JS and Observable Plot, GitHub Pages
+- [Live site](https://emmabranch.github.io/bike-recall-surveillance/) | [Dashboard](https://emmabranch.github.io/bike-recall-surveillance/dashboard.html) | [Code](https://github.com/emmabranch/bike-recall-surveillance)
+
+</details>
+
 ## Skills
 
 - **Analysis and programming:** R (tidyverse, sf, Shiny, Quarto, RMarkdown), SAS, SQL, Python (basic), Stata, SPSS
@@ -157,8 +170,8 @@ How much of Ontario's woodland caribou habitat is staked for mineral exploration
 - **Spatial:** QGIS, ArcGIS, sf, leaflet, BigQuery GIS
 - **Performance measurement and reporting:** indicator frameworks, KPI definitions and status rules, scorecards and dashboards (Quarto, Power BI), parameterised reporting, data dictionaries
 - **Data management and quality:** data management plans, OCAP principles, quality control (IOOS QARTOD), validation against published figures, metadata standards (CF, ACDD), NetCDF, ERDDAP, data archiving with DOIs (Zenodo), Git and GitHub
-- **Web and data storytelling:** Quarto websites and scrollytelling (closeread), interactive maps with D3 and leaflet, Shiny apps
-- **Methods:** epidemiological study design, environmental exposure assessment, area-level indices, data linkage
+- **Web and data storytelling:** Quarto websites and scrollytelling (closeread), interactive maps with D3 and leaflet, Observable JS dashboards, Shiny apps
+- **Methods:** epidemiological study design, surveillance case definitions and signal detection, environmental exposure assessment, area-level indices, data linkage, validation of rule-based classification
 
 ## Get in touch
 
