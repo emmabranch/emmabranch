@@ -73,7 +73,11 @@ I'm an epidemiologist and data analyst in British Columbia, and a PhD candidate 
 <p><b><a href="https://emmabranch.github.io/ontario-claims-caribou/">Mining claims and caribou</a></b><br>Active mining claims cover about 50,900 km², or 10.6%, of Ontario's woodland caribou ranges.</p>
 <p><i>Python · R · QGIS</i><br><a href="https://emmabranch.github.io/ontario-claims-caribou/">Live site</a> · <a href="https://github.com/emmabranch/ontario-claims-caribou">Code</a></p>
 </td>
-<td width="50%" valign="top"></td>
+<td width="50%" valign="top">
+<a href="https://emmabranch.github.io/scotland-seas-indicators/"><img src="images/scotland-seas-indicators.png" alt="State of Scotland's Seas"></a>
+<p><b><a href="https://emmabranch.github.io/scotland-seas-indicators/">State of Scotland's Seas</a></b><br>An independent indicator report card: seabirds after avian flu, seals, salmon, sea temperature, and protected areas.</p>
+<p><i>R · Quarto · leaflet · Observable JS</i><br><a href="https://emmabranch.github.io/scotland-seas-indicators/">Live site</a> · <a href="https://github.com/emmabranch/scotland-seas-indicators">Code</a></p>
+</td>
 </tr>
 </table>
 
@@ -177,6 +181,15 @@ What do 26 years of bicycle recalls say about which parts fail? I treated recall
 How different are gravel bikes really, once you look past the marketing? I typed in every size of 24 current gravel bikes from 19 brands from the manufacturers' own charts, checked each chart against itself, and built a site to explore them: a stack and reach scatter, side-by-side comparisons drawn to scale, a stick-figure rider on every size with fit flags calibrated against manufacturers' size charts, a geometry builder, and diagrams of how trail, wheelbase, and bottom bracket drop change handling. A page of five small epi studies applies Bland–Altman agreement, growth-chart centiles, an equity comparison for smaller riders, cluster analysis with Cohen's kappa, and a secular trend comparison of older generations from archived charts. It is an independent project using published data.
 - **Tools:** R (tidyverse, quantreg), Quarto, Observable JS and Observable Plot, GitHub Pages
 - [Live site](https://emmabranch.github.io/gravel-geometry/) | [Compare](https://emmabranch.github.io/gravel-geometry/compare.html) | [Code](https://github.com/emmabranch/gravel-geometry)
+
+</details>
+
+<details>
+<summary><b>🐦 State of Scotland's Seas: an independent indicator report card</b></summary>
+
+How are Scotland's seas doing? This reproducible Quarto site summarises five indicators from open and published data, each with a status, trend, confidence rating, limitations, and sources: seabirds after the 2021-22 avian flu outbreak (the featured deep dive, with a scrolling story), harbour and grey seals, wild Atlantic salmon, sea temperature, and marine protected area coverage against 30x30. A framework map links each indicator to the Scottish, UK, OSPAR, and global targets it reports against. It is an independent project, not an official assessment.
+- **Tools:** R (tidyverse, sf, leaflet, gt, reactable), Quarto (closeread), Observable JS and D3, GitHub Pages
+- [Live site](https://emmabranch.github.io/scotland-seas-indicators/) | [Code](https://github.com/emmabranch/scotland-seas-indicators)
 
 </details>
 
